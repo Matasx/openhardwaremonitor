@@ -44,7 +44,7 @@ namespace OpenHardwareMonitor.Hardware.CPU {
 
     private const uint REPORTED_TEMPERATURE_CONTROL_REGISTER = 0xA4;
     private const uint CLOCK_POWER_TIMING_CONTROL_0_REGISTER = 0xD4;
-
+        
     private readonly uint miscellaneousControlAddress;
     private readonly ushort miscellaneousControlDeviceId;
 
